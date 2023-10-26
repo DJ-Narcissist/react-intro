@@ -6,7 +6,7 @@ function App () {
     return (
         <div>
             <FirstComponent />
-            <NamedComponent name="YourNameHere" />
+            <NamedComponent name="Joe" />
         </div>
     );
 };
