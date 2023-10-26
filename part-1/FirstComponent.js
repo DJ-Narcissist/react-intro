@@ -1,7 +1,7 @@
 import react from "react";
 
 
-const FirstComponent = () => {
+function FirstComponent({ name })  {
     return <h1>Very first first Component</h1>;
 };
 

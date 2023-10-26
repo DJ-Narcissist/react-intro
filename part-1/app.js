@@ -2,7 +2,7 @@ import React from "react";
 import FirstComponent from "./FirstComponent";
 import NamedComponent from "./NamedComponenet";
 
-const App = ()  => {
+function App () {
     return (
         <div>
             <FirstComponent />
