@@ -1,13 +1,30 @@
 .tweet {
-    border: 3px solid cyan;
-    border-radius: 6px;
-    margin: 28px 40%;
+    border: 1px solid cyan;
+    border-radius: 5px;
+    margin: 10px 40%;
     padding: auto;
 }
 
-.username,
+.tweet-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.username{
+    font-weight: bold;
+
+}
 .date { 
     color: blue;
     display: inline-block;
     margin: auto;
+}
+
+.message {
+    font-size: 18px;
+}
+
+.name {
+    color: chartreuse;
+    font-style: italic;
 }

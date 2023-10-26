@@ -2,7 +2,7 @@ import React from "react";
 import FirstComponent from "./FirstComponent";
 import NamedComponent from "./NamedComponenet";
 
-function App () {
+const app =  () => {
     return (
         <div>
             <FirstComponent />
@@ -11,4 +11,4 @@ function App () {
     );
 };
 
-export default App;
+export default app;

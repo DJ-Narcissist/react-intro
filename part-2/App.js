@@ -1,4 +1,7 @@
-function App () {
+import React from "react";
+import Tweet from "./Tweet";
+
+const App = () => {
     return (
         <div>
             <Tweet
@@ -15,4 +18,6 @@ function App () {
             />
         </div>
     );
-}
+};
+
+export default App;

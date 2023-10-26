@@ -1,7 +1,7 @@
 import React from "react";
 
-function NamedComponent ({ name })  {
-    return <p> My name is  {name}. </p>;
+const NamedComponent = (props) =>  {
+    return <p> My name is  {props.name}. </p>;
 };
 
 export default NamedComponent;
